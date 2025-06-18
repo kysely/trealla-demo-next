@@ -1,6 +1,8 @@
 // @ts-expect-error bad types
 import { load as loadProlog, Prolog } from "trealla-multibundle";
 
+export const runtime = "nodejs";
+
 export const GET = async () => {
   await loadProlog();
 
